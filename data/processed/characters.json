@@ -1,0 +1,2918 @@
+[
+  {
+    "id": "priest",
+    "name": "Priest",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "olive",
+    "name": "Olive Snook",
+    "type": "supporting",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S01E06",
+      "S01E07",
+      "S01E08",
+      "S01E09",
+      "S02E01",
+      "S02E02",
+      "S02E03",
+      "S02E04",
+      "S02E05",
+      "S02E06",
+      "S02E07",
+      "S02E08",
+      "S02E09",
+      "S02E10",
+      "S02E11",
+      "S02E12",
+      "S02E13"
+    ],
+    "scene_count": 240,
+    "top_words": [
+      "pie",
+      "maybe",
+      "dead",
+      "say",
+      "love"
+    ],
+    "pagerank": 9.350564883167753
+  },
+  {
+    "id": "emerson",
+    "name": "Emerson Cod",
+    "type": "main",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S01E06",
+      "S01E07",
+      "S01E08",
+      "S01E09",
+      "S02E01",
+      "S02E02",
+      "S02E03",
+      "S02E04",
+      "S02E05",
+      "S02E06",
+      "S02E07",
+      "S02E08",
+      "S02E09",
+      "S02E10",
+      "S02E11",
+      "S02E12",
+      "S02E13"
+    ],
+    "scene_count": 353,
+    "top_words": [
+      "dead",
+      "ain",
+      "girl",
+      "cause",
+      "find"
+    ],
+    "pagerank": 17.359756034741284
+  },
+  {
+    "id": "ned",
+    "name": "Ned (The Pie Maker)",
+    "type": "main",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S01E06",
+      "S01E07",
+      "S01E08",
+      "S01E09",
+      "S02E01",
+      "S02E02",
+      "S02E03",
+      "S02E04",
+      "S02E05",
+      "S02E06",
+      "S02E07",
+      "S02E08",
+      "S02E09",
+      "S02E10",
+      "S02E11",
+      "S02E12",
+      "S02E13"
+    ],
+    "scene_count": 414,
+    "top_words": [
+      "dead",
+      "pie",
+      "dad",
+      "sorry",
+      "say"
+    ],
+    "pagerank": 17.895018444273067
+  },
+  {
+    "id": "coroner",
+    "name": "Coroner",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E02",
+      "S01E04",
+      "S01E08",
+      "S01E09",
+      "S02E01",
+      "S02E02",
+      "S02E11"
+    ],
+    "scene_count": 13,
+    "top_words": [
+      "expert",
+      "biscuits",
+      "mnnn",
+      "shifty",
+      "shrimps"
+    ],
+    "pagerank": 1.0819194377357653
+  },
+  {
+    "id": "leonard_gaswint",
+    "name": "Leonard Gaswint",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "dog"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "lawrence_schatz",
+    "name": "Lawrence Schatz",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E03"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "louis",
+      "buried",
+      "prepping",
+      "body",
+      "burial"
+    ],
+    "pagerank": 0.6434173148422512
+  },
+  {
+    "id": "chuck",
+    "name": "Chuck",
+    "type": "main",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S01E06",
+      "S01E07",
+      "S01E08",
+      "S01E09",
+      "S02E01",
+      "S02E02",
+      "S02E03",
+      "S02E04",
+      "S02E05",
+      "S02E06",
+      "S02E07",
+      "S02E08",
+      "S02E09",
+      "S02E10",
+      "S02E11",
+      "S02E12",
+      "S02E13"
+    ],
+    "scene_count": 375,
+    "top_words": [
+      "dad",
+      "maybe",
+      "bees",
+      "love",
+      "alive"
+    ],
+    "pagerank": 13.578205352856145
+  },
+  {
+    "id": "graveyard_worker",
+    "name": "Graveyard Worker",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.2712438850773252
+  },
+  {
+    "id": "deedee",
+    "name": "Deedee",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "honest"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "shiny_shoes_killer",
+    "name": "Shiny Shoes Killer",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01"
+    ],
+    "scene_count": 2,
+    "top_words": [],
+    "pagerank": 0.3894258834376951
+  },
+  {
+    "id": "lily",
+    "name": "Lily Charles",
+    "type": "supporting",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S01E07",
+      "S01E09",
+      "S02E01",
+      "S02E02",
+      "S02E06",
+      "S02E07",
+      "S02E08",
+      "S02E09",
+      "S02E10",
+      "S02E11",
+      "S02E13"
+    ],
+    "scene_count": 58,
+    "top_words": [
+      "pie",
+      "time",
+      "dammit",
+      "sister",
+      "middle"
+    ],
+    "pagerank": 2.44225853527082
+  },
+  {
+    "id": "vivian",
+    "name": "Vivian Charles",
+    "type": "supporting",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S01E07",
+      "S01E09",
+      "S02E01",
+      "S02E02",
+      "S02E06",
+      "S02E07",
+      "S02E08",
+      "S02E09",
+      "S02E10",
+      "S02E11",
+      "S02E13"
+    ],
+    "scene_count": 55,
+    "top_words": [
+      "pie",
+      "birdhouse",
+      "time",
+      "happy",
+      "man"
+    ],
+    "pagerank": 2.0931334677412874
+  },
+  {
+    "id": "parrot",
+    "name": "Parrot",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E01",
+      "S01E05"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "help"
+    ],
+    "pagerank": 0.4321859052979013
+  },
+  {
+    "id": "teacher",
+    "name": "Teacher",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.2712438850773252
+  },
+  {
+    "id": "bernard",
+    "name": "Bernard",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "female_narrator",
+    "name": "Female Narrator",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 2,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "mark_chase",
+    "name": "Mark Chase",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 8,
+    "top_words": [
+      "japanese",
+      "lion",
+      "dandy",
+      "english",
+      "crash"
+    ],
+    "pagerank": 0.6374315646698933
+  },
+  {
+    "id": "younger_chuck",
+    "name": "Younger Chuck",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "jarlsberg",
+      "table"
+    ],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "jeanine",
+    "name": "Jeanine",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "flower",
+      "sweet",
+      "pie",
+      "dead"
+    ],
+    "pagerank": 0.5845506024904528
+  },
+  {
+    "id": "lab_tecnician",
+    "name": "Lab Tecnician",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.4229270302087393
+  },
+  {
+    "id": "manuel",
+    "name": "Manuel",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.44390470898812007
+  },
+  {
+    "id": "rick",
+    "name": "Rick",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "rick"
+    ],
+    "pagerank": 0.5178792918212606
+  },
+  {
+    "id": "beth",
+    "name": "Beth",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "dead",
+      "test"
+    ],
+    "pagerank": 0.5805163247649721
+  },
+  {
+    "id": "alfredo",
+    "name": "Alfredo",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E03",
+      "S01E08"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "espresso",
+      "indulging",
+      "gristle",
+      "complimentary",
+      "salesman"
+    ],
+    "pagerank": 0.7533839087651085
+  },
+  {
+    "id": "louis_schatz",
+    "name": "Louis Schatz",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E03"
+    ],
+    "scene_count": 8,
+    "top_words": [
+      "larry",
+      "tourist",
+      "lonely",
+      "buried",
+      "locked"
+    ],
+    "pagerank": 0.6434173148422512
+  },
+  {
+    "id": "donald_funk",
+    "name": "Donald Funk",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E03"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "delivery_boy",
+    "name": "Delivery Boy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E03"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.26510076808908756
+  },
+  {
+    "id": "elderly_man",
+    "name": "Elderly Man",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E03"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.2712438850773252
+  },
+  {
+    "id": "wilfred",
+    "name": "Wilfred",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E03"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "schatz",
+      "sword",
+      "great",
+      "granddaddy",
+      "lawrence"
+    ],
+    "pagerank": 0.38808317764792627
+  },
+  {
+    "id": "newscaster",
+    "name": "Newscaster",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E03"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "conrad",
+    "name": "Conrad",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "everything"
+    ],
+    "pagerank": 0.4478455297229957
+  },
+  {
+    "id": "becky",
+    "name": "Becky",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 2,
+    "top_words": [],
+    "pagerank": 0.6013886828927973
+  },
+  {
+    "id": "bradan",
+    "name": "Bradan",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "dippy"
+    ],
+    "pagerank": 0.4742660078836094
+  },
+  {
+    "id": "old_dead_guy",
+    "name": "Old Dead Guy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "plane"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "lemuel",
+    "name": "Lemuel",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "jackson_lucas",
+    "name": "Jackson Lucas",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "much"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "curator",
+    "name": "Curator",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "mill",
+      "vonroenn"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "elsita",
+    "name": "Elsita",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "jackson",
+      "mamma",
+      "wind",
+      "bird",
+      "keep"
+    ],
+    "pagerank": 0.50881722681544
+  },
+  {
+    "id": "lefty_lem",
+    "name": "Lefty Lem",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "elsa",
+      "wind",
+      "jackson",
+      "took",
+      "diamonds"
+    ],
+    "pagerank": 0.6299090001936151
+  },
+  {
+    "id": "elsa",
+    "name": "Elsa",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E04"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "lucas_shoemaker",
+    "name": "Lucas Shoemaker",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E05"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "gope",
+      "bom",
+      "kilm",
+      "hiff",
+      "dofeff"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "pinky_mccoy",
+    "name": "Pinky Mccoy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E05"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "gordon",
+      "deserve"
+    ],
+    "pagerank": 0.7564191033009442
+  },
+  {
+    "id": "gordon_mcsmalls",
+    "name": "Gordon Mcsmalls",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E05"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "john",
+      "joseph",
+      "ghost",
+      "shoey",
+      "miss"
+    ],
+    "pagerank": 0.6335443700750647
+  },
+  {
+    "id": "mamma_jacobs",
+    "name": "Mamma Jacobs",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E05"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "johnny",
+      "accident",
+      "career",
+      "trampled",
+      "snook"
+    ],
+    "pagerank": 0.5014647648098273
+  },
+  {
+    "id": "john_joseph_jacobs",
+    "name": "John Joseph Jacobs",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E05"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "mamma",
+      "basement",
+      "kinda",
+      "home",
+      "maybe"
+    ],
+    "pagerank": 0.3819400606596889
+  },
+  {
+    "id": "harold_hundin",
+    "name": "Harold Hundin",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E06"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "coffee",
+      "bitter",
+      "bubblegum",
+      "taste",
+      "dog"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "simone",
+    "name": "Simone",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E06",
+      "S02E05",
+      "S02E12"
+    ],
+    "scene_count": 24,
+    "top_words": [
+      "bubblegum",
+      "harold",
+      "lila",
+      "snuppy",
+      "kill"
+    ],
+    "pagerank": 1.919141796890713
+  },
+  {
+    "id": "heather",
+    "name": "Heather",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E06"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "betterment",
+      "mating"
+    ],
+    "pagerank": 0.9334141365561253
+  },
+  {
+    "id": "hallie",
+    "name": "Hallie",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E06"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "harold",
+      "snuppy",
+      "coffee",
+      "almond",
+      "flavored"
+    ],
+    "pagerank": 0.9944795114500758
+  },
+  {
+    "id": "hilary",
+    "name": "Hilary",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E06"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "bubblegum",
+      "clone",
+      "shock",
+      "snuppy",
+      "food"
+    ],
+    "pagerank": 1.0035348556466595
+  },
+  {
+    "id": "snuppy",
+    "name": "Snuppy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E06"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "hundin",
+      "contract",
+      "best",
+      "dead"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "minister",
+    "name": "Minister",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E06"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.508989346195705
+  },
+  {
+    "id": "anita",
+    "name": "Anita",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E07"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "grandma"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "lenez",
+    "name": "Lenez",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E07"
+    ],
+    "scene_count": 9,
+    "top_words": [
+      "smell",
+      "oscar",
+      "chamber",
+      "anita",
+      "decontamination"
+    ],
+    "pagerank": 0.9211369528797394
+  },
+  {
+    "id": "chas_spielman",
+    "name": "Chas Spielman",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E07"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "book",
+      "pop",
+      "ups",
+      "petty",
+      "lenez"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "oscar",
+    "name": "Oscar",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E07",
+      "S01E09"
+    ],
+    "scene_count": 9,
+    "top_words": [
+      "hair",
+      "dog",
+      "death",
+      "smell",
+      "sewer"
+    ],
+    "pagerank": 0.6916630868844561
+  },
+  {
+    "id": "anchorwoman",
+    "name": "Anchorwoman",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E07"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "smell",
+      "success",
+      "author",
+      "oscar",
+      "vibenius"
+    ],
+    "pagerank": 0.39910108368610475
+  },
+  {
+    "id": "billy",
+    "name": "Billy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "balsam",
+      "amazing",
+      "bitter",
+      "candy",
+      "sweets"
+    ],
+    "pagerank": 1.0245462206481462
+  },
+  {
+    "id": "tina",
+    "name": "Tina",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.5714410216118638
+  },
+  {
+    "id": "tony",
+    "name": "Tony",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "doll",
+      "girlfriend",
+      "cause",
+      "dead"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "bruce",
+    "name": "Bruce",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "sheila",
+      "girlfriend",
+      "love"
+    ],
+    "pagerank": 0.6046748800038725
+  },
+  {
+    "id": "dilly",
+    "name": "Dilly",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "pie",
+      "brother",
+      "competition",
+      "billy",
+      "business"
+    ],
+    "pagerank": 0.9674313390676477
+  },
+  {
+    "id": "woman",
+    "name": "Woman",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.6277247235268858
+  },
+  {
+    "id": "andrew_brown",
+    "name": "Andrew Brown",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "surprise"
+    ],
+    "pagerank": 0.5031839457370141
+  },
+  {
+    "id": "cop",
+    "name": "Cop",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.458580720264743
+  },
+  {
+    "id": "guard",
+    "name": "Guard",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.3442115189874425
+  },
+  {
+    "id": "news_anchor",
+    "name": "News Anchor",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E08"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "balsam"
+    ],
+    "pagerank": 0.3885662929741017
+  },
+  {
+    "id": "angry_neighbor",
+    "name": "Angry Neighbor",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.2712438850773252
+  },
+  {
+    "id": "victor_narramore",
+    "name": "Victor Narramore",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "live",
+      "organ",
+      "deserve",
+      "hell",
+      "new"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "emma_newsome",
+    "name": "Emma Newsome",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "wish",
+      "abner",
+      "foundation",
+      "celebrity",
+      "kaiser"
+    ],
+    "pagerank": 0.6763992002027449
+  },
+  {
+    "id": "abner_newsome",
+    "name": "Abner Newsome",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "sucking",
+      "caring",
+      "awesome",
+      "dance",
+      "heart"
+    ],
+    "pagerank": 0.6763992002027449
+  },
+  {
+    "id": "bill_richter",
+    "name": "Bill Richter",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "kevin",
+      "life",
+      "ber",
+      "insurance"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "steve_kaiser",
+    "name": "Steve Kaiser",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "transplant",
+      "victor",
+      "kevin",
+      "bill",
+      "company"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "madeline_mclean",
+    "name": "Madeline Mclean",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "wish",
+      "abner",
+      "gun"
+    ],
+    "pagerank": 0.6763992002027449
+  },
+  {
+    "id": "mermaid",
+    "name": "Mermaid",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S01E09"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "bur",
+      "blur"
+    ],
+    "pagerank": 0.31883908293028373
+  },
+  {
+    "id": "shooting_script",
+    "name": "Shooting Script",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "customer",
+    "name": "Customer",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.26510076808908756
+  },
+  {
+    "id": "dusty_fitz",
+    "name": "Dusty Fitz",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "betty",
+      "kentucky",
+      "bees",
+      "bee",
+      "upsetting"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "kentucky",
+    "name": "Kentucky",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "bees",
+      "betty",
+      "family",
+      "face",
+      "husband"
+    ],
+    "pagerank": 0.5728355206510147
+  },
+  {
+    "id": "woolsey",
+    "name": "Woolsey",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "betty",
+      "bee",
+      "kitty",
+      "rounds",
+      "bees"
+    ],
+    "pagerank": 0.6434173148422512
+  },
+  {
+    "id": "betty",
+    "name": "Betty",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "bees",
+      "woolsey",
+      "kentucky",
+      "honey",
+      "betty"
+    ],
+    "pagerank": 0.6434173148422512
+  },
+  {
+    "id": "nuns",
+    "name": "Nuns",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.26510076808908756
+  },
+  {
+    "id": "mother_superior",
+    "name": "Mother Superior",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E01",
+      "S02E02",
+      "S02E03",
+      "S02E11"
+    ],
+    "scene_count": 10,
+    "top_words": [
+      "sister",
+      "sisters",
+      "everlasting",
+      "explained",
+      "poor"
+    ],
+    "pagerank": 0.8042715756878689
+  },
+  {
+    "id": "ms__moss",
+    "name": "Ms. Moss",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "georgeann",
+    "name": "Georgeann",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "nikki",
+      "knock",
+      "sweet",
+      "cod",
+      "find"
+    ],
+    "pagerank": 0.26952470415013835
+  },
+  {
+    "id": "randi_jean",
+    "name": "Randi Jean",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "nikki",
+      "mom",
+      "wants",
+      "mind",
+      "won"
+    ],
+    "pagerank": 0.26683929257060124
+  },
+  {
+    "id": "rocky",
+    "name": "Rocky",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "jackass",
+      "circus"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "pierre",
+    "name": "Pierre",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "clowns",
+      "scare",
+      "circus",
+      "safe",
+      "around"
+    ],
+    "pagerank": 0.5772442801460212
+  },
+  {
+    "id": "arno",
+    "name": "Arno",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "clowns",
+      "guess",
+      "having",
+      "knew"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "small_person",
+    "name": "Small Person",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "ninety",
+      "bottles",
+      "beer",
+      "wall",
+      "eight"
+    ],
+    "pagerank": 0.3310062371523944
+  },
+  {
+    "id": "ms__de_jong",
+    "name": "Ms. De Jong",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "deserves"
+    ],
+    "pagerank": 0.2712438850773252
+  },
+  {
+    "id": "jackie_johnny",
+    "name": "Jackie Johnny",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "audience",
+      "fun"
+    ],
+    "pagerank": 0.38808317764792627
+  },
+  {
+    "id": "bryce",
+    "name": "Bryce",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "shower",
+      "mask",
+      "circus",
+      "clown",
+      "pies"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "nikki",
+    "name": "Nikki",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E02"
+    ],
+    "scene_count": 3,
+    "top_words": [],
+    "pagerank": 0.5772442801460212
+  },
+  {
+    "id": "sister_larue",
+    "name": "Sister Larue",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E03"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "dong",
+      "somethin"
+    ],
+    "pagerank": 0.5058693573165512
+  },
+  {
+    "id": "father_ed",
+    "name": "Father Ed",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E03"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "sister",
+      "father",
+      "larue",
+      "help"
+    ],
+    "pagerank": 0.7460881258382845
+  },
+  {
+    "id": "sister_maria_christina",
+    "name": "Sister Maria Christina",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E03"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "please"
+    ],
+    "pagerank": 0.5036670610631891
+  },
+  {
+    "id": "burly",
+    "name": "Burly",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E03"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.3310062371523944
+  },
+  {
+    "id": "hansel",
+    "name": "Hansel",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E03"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "larue",
+      "love",
+      "find"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "broad",
+    "name": "Broad",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.625393312860451
+  },
+  {
+    "id": "calista",
+    "name": "Calista",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "girl",
+      "gotta",
+      "momma",
+      "veronica",
+      "mother"
+    ],
+    "pagerank": 1.110115983753412
+  },
+  {
+    "id": "veronica",
+    "name": "Veronica",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "joe",
+      "villanueva",
+      "body",
+      "truth"
+    ],
+    "pagerank": 0.5490661294215482
+  },
+  {
+    "id": "joe",
+    "name": "Joe",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "dr__eugene",
+    "name": "Dr. Eugene",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "friend"
+    ],
+    "pagerank": 0.5490661294215482
+  },
+  {
+    "id": "buddy",
+    "name": "Buddy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "barb",
+      "preserve",
+      "alone",
+      "best",
+      "say"
+    ],
+    "pagerank": 0.5724838328268624
+  },
+  {
+    "id": "barb",
+    "name": "Barb",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "kitty",
+      "joe",
+      "fake",
+      "clients",
+      "spar"
+    ],
+    "pagerank": 0.6917670067955823
+  },
+  {
+    "id": "randy",
+    "name": "Randy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04",
+      "S02E11",
+      "S02E12"
+    ],
+    "scene_count": 20,
+    "top_words": [
+      "joe",
+      "thought",
+      "clark",
+      "roommate",
+      "personality"
+    ],
+    "pagerank": 1.3299050116901883
+  },
+  {
+    "id": "teenage_buddy",
+    "name": "Teenage Buddy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E04"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "ingmar",
+    "name": "Ingmar",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.15000000000000002
+  },
+  {
+    "id": "dwight",
+    "name": "Dwight",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05",
+      "S02E06",
+      "S02E07",
+      "S02E08"
+    ],
+    "scene_count": 11,
+    "top_words": [
+      "watch",
+      "service",
+      "fine",
+      "pocket",
+      "worth"
+    ],
+    "pagerank": 0.8442726126463913
+  },
+  {
+    "id": "lai_di",
+    "name": "Lai Di",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "lai"
+    ],
+    "pagerank": 0.26952470415013835
+  },
+  {
+    "id": "bao",
+    "name": "Bao",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 2,
+    "top_words": [],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "mei",
+    "name": "Mei",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "father",
+      "dad",
+      "section",
+      "cookie",
+      "knew"
+    ],
+    "pagerank": 0.8114070312211838
+  },
+  {
+    "id": "rubbie",
+    "name": "Rubbie",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "menus",
+      "mandarin",
+      "plane"
+    ],
+    "pagerank": 0.992269149965754
+  },
+  {
+    "id": "hua_jiang",
+    "name": "Hua Jiang",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.26683929257060124
+  },
+  {
+    "id": "maurice",
+    "name": "Maurice",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05",
+      "S02E06"
+    ],
+    "scene_count": 9,
+    "top_words": [
+      "herrmann",
+      "dad",
+      "great",
+      "pie",
+      "cement"
+    ],
+    "pagerank": 0.7491471166074295
+  },
+  {
+    "id": "ralston",
+    "name": "Ralston",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05",
+      "S02E06"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "herrmann",
+      "dad",
+      "pie",
+      "show",
+      "great"
+    ],
+    "pagerank": 0.7491471166074295
+  },
+  {
+    "id": "perry",
+    "name": "Perry",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "policy",
+      "bao",
+      "insurance",
+      "life"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "shrimpboy",
+    "name": "Shrimpboy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "cousin",
+      "bet",
+      "bodyguard",
+      "play",
+      "hand"
+    ],
+    "pagerank": 1.0081365076839917
+  },
+  {
+    "id": "busboy",
+    "name": "Busboy",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.569974342249385
+  },
+  {
+    "id": "waitress_dealer",
+    "name": "Waitress-Dealer",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E05"
+    ],
+    "scene_count": 2,
+    "top_words": [],
+    "pagerank": 0.5698488988048039
+  },
+  {
+    "id": "great_herrmann",
+    "name": "Great Herrmann",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E06"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "blah",
+      "magic",
+      "feat",
+      "cod",
+      "excuse"
+    ],
+    "pagerank": 0.6227086498871524
+  },
+  {
+    "id": "alexandria",
+    "name": "Alexandria",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E06"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "carrot",
+      "herrmann",
+      "monkey",
+      "eight",
+      "dangling"
+    ],
+    "pagerank": 0.6871484103723952
+  },
+  {
+    "id": "geek",
+    "name": "Geek",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E06"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "regurgitate",
+      "herrmann",
+      "bottle",
+      "promise",
+      "animals"
+    ],
+    "pagerank": 0.6871484103723952
+  },
+  {
+    "id": "daniel_hill",
+    "name": "Daniel Hill",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "gustav",
+      "wife",
+      "lawyer",
+      "client",
+      "booming"
+    ],
+    "pagerank": 0.6947711391175854
+  },
+  {
+    "id": "gustav_hofer",
+    "name": "Gustav Hofer",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "trophy",
+      "money",
+      "doesn"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "elise_hofer",
+    "name": "Elise Hofer",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "james",
+      "andrew",
+      "totally",
+      "sponge",
+      "deserved"
+    ],
+    "pagerank": 0.6484881461277885
+  },
+  {
+    "id": "james_andrew",
+    "name": "James-Andrew",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "key",
+      "party"
+    ],
+    "pagerank": 0.5838731662180179
+  },
+  {
+    "id": "rob",
+    "name": "Rob",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "ring",
+      "bellmen",
+      "gustav",
+      "facts",
+      "another"
+    ],
+    "pagerank": 0.7129481985410387
+  },
+  {
+    "id": "bellmen",
+    "name": "Bellmen",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.5851310277760716
+  },
+  {
+    "id": "tam",
+    "name": "Tam",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "phone",
+      "please"
+    ],
+    "pagerank": 0.7601756074620489
+  },
+  {
+    "id": "chuck_emerson",
+    "name": "Chuck Emerson",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E07",
+      "S02E11"
+    ],
+    "scene_count": 2,
+    "top_words": [],
+    "pagerank": 0.7678354743292506
+  },
+  {
+    "id": "charles_charles",
+    "name": "Charles Charles",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E08",
+      "S02E09"
+    ],
+    "scene_count": 11,
+    "top_words": [
+      "button",
+      "nedly",
+      "cake",
+      "gliding",
+      "daughter"
+    ],
+    "pagerank": 0.49886515902754597
+  },
+  {
+    "id": "leo_burns",
+    "name": "Leo Burns",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E08"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "buffalo",
+      "likkin",
+      "pie",
+      "marianne",
+      "marie"
+    ],
+    "pagerank": 0.7839416319294334
+  },
+  {
+    "id": "marianne_marie",
+    "name": "Marianne Marie",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E08"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "colonel",
+      "muffins",
+      "judges",
+      "fried",
+      "killer"
+    ],
+    "pagerank": 0.7839416319294334
+  },
+  {
+    "id": "the_widow_likkin",
+    "name": "The Widow Likkin",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E08"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "colonel",
+      "recipe",
+      "doughnut",
+      "husband",
+      "deep"
+    ],
+    "pagerank": 0.7953316432080958
+  },
+  {
+    "id": "colonel_likkin",
+    "name": "Colonel Likkin",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E08"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "recipe",
+      "behind"
+    ],
+    "pagerank": 0.2712438850773252
+  },
+  {
+    "id": "waffle_nazi",
+    "name": "Waffle Nazi",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E08"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "german",
+      "speak",
+      "soon"
+    ],
+    "pagerank": 0.9309382705558982
+  },
+  {
+    "id": "judge",
+    "name": "Judge",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E08"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.4662768191801287
+  },
+  {
+    "id": "elliot",
+    "name": "Elliot",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E09"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "mom",
+      "dad",
+      "mother",
+      "lots",
+      "please"
+    ],
+    "pagerank": 0.8329104291808586
+  },
+  {
+    "id": "nora",
+    "name": "Nora",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E09"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "aggggh",
+      "mmmmmm"
+    ],
+    "pagerank": 0.3907685892274637
+  },
+  {
+    "id": "gus",
+    "name": "Gus",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E09"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "nora",
+      "lighthouse",
+      "annabelle",
+      "protected",
+      "diorama"
+    ],
+    "pagerank": 0.732233027223988
+  },
+  {
+    "id": "annabelle",
+    "name": "Annabelle",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E09"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "nora",
+      "notable",
+      "merle",
+      "widows",
+      "snook"
+    ],
+    "pagerank": 0.5220131499986045
+  },
+  {
+    "id": "willie",
+    "name": "Willie",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E09"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "supposed"
+    ],
+    "pagerank": 0.38462547223922594
+  },
+  {
+    "id": "merle",
+    "name": "Merle",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E09"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "elliot",
+      "ish",
+      "nora",
+      "man",
+      "set"
+    ],
+    "pagerank": 0.38462547223922594
+  },
+  {
+    "id": "yellow_jacketed_figure",
+    "name": "Yellow-Jacketed Figure",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E09"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.5172225209058675
+  },
+  {
+    "id": "magnus",
+    "name": "Magnus",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E10"
+    ],
+    "scene_count": 10,
+    "top_words": [
+      "dixon",
+      "detective",
+      "goddag",
+      "case",
+      "nils"
+    ],
+    "pagerank": 0.8174163711849182
+  },
+  {
+    "id": "nils",
+    "name": "Nils",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E10"
+    ],
+    "scene_count": 8,
+    "top_words": [
+      "mother",
+      "dixon",
+      "fact",
+      "man",
+      "telling"
+    ],
+    "pagerank": 0.8174163711849182
+  },
+  {
+    "id": "hedda",
+    "name": "Hedda",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E10"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "norwegian",
+      "home",
+      "man",
+      "people"
+    ],
+    "pagerank": 0.7566885018094944
+  },
+  {
+    "id": "buster",
+    "name": "Buster",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "ain",
+      "mad",
+      "snook",
+      "plan",
+      "guy"
+    ],
+    "pagerank": 0.7829890456235873
+  },
+  {
+    "id": "jerry",
+    "name": "Jerry",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "grudge",
+      "worrywart",
+      "girl",
+      "loves",
+      "nine"
+    ],
+    "pagerank": 0.8401176564091001
+  },
+  {
+    "id": "wendell",
+    "name": "Wendell",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 4,
+    "top_words": [
+      "erin",
+      "coco",
+      "window",
+      "bangkok",
+      "tuk"
+    ],
+    "pagerank": 0.865745040981508
+  },
+  {
+    "id": "devotee",
+    "name": "Devotee",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.3930395789651
+  },
+  {
+    "id": "dick_dicker",
+    "name": "Dick Dicker",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "dicker",
+      "coco",
+      "erin",
+      "created",
+      "designed"
+    ],
+    "pagerank": 0.7825943646815386
+  },
+  {
+    "id": "coco",
+    "name": "Coco",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "erin",
+      "embry",
+      "wrong",
+      "window",
+      "escalator"
+    ],
+    "pagerank": 0.7212263101863304
+  },
+  {
+    "id": "denny",
+    "name": "Denny",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "coco",
+      "memorial"
+    ],
+    "pagerank": 0.7921388626735847
+  },
+  {
+    "id": "erin",
+    "name": "Erin",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E11"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "family"
+    ],
+    "pagerank": 0.5822987126588527
+  },
+  {
+    "id": "amelia_stingwell",
+    "name": "Amelia Stingwell",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "rollie",
+      "ruby",
+      "killed",
+      "find"
+    ],
+    "pagerank": 0.38512017001548526
+  },
+  {
+    "id": "stingwell",
+    "name": "Stingwell",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "spent",
+      "life",
+      "cod",
+      "love",
+      "see"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "tour_guide",
+    "name": "Tour Guide",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "dam",
+      "papen",
+      "county",
+      "wait"
+    ],
+    "pagerank": 0.4491882355127642
+  },
+  {
+    "id": "trish",
+    "name": "Trish",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "stingwell",
+      "private",
+      "reservoir",
+      "dam",
+      "asking"
+    ],
+    "pagerank": 0.5076078817980649
+  },
+  {
+    "id": "puget",
+    "name": "Puget",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "tip",
+      "angle",
+      "cod",
+      "hundred",
+      "stingwell"
+    ],
+    "pagerank": 0.32732243708281167
+  },
+  {
+    "id": "lila",
+    "name": "Lila",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "penny",
+      "deal",
+      "stingwell",
+      "see",
+      "lantern"
+    ],
+    "pagerank": 0.7359454464774096
+  },
+  {
+    "id": "brunt",
+    "name": "Brunt",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "birthday",
+      "stingwell",
+      "pay",
+      "water",
+      "else"
+    ],
+    "pagerank": 0.5654056147307382
+  },
+  {
+    "id": "mr__cray",
+    "name": "Mr. Cray",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "tuesday"
+    ],
+    "pagerank": 0.7184520683752134
+  },
+  {
+    "id": "mr__abner",
+    "name": "Mr. Abner",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "reservoir",
+      "chemicals",
+      "time"
+    ],
+    "pagerank": 0.7203044499498739
+  },
+  {
+    "id": "mr__booker",
+    "name": "Mr. Booker",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E12"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.6562814743997398
+  },
+  {
+    "id": "blanche",
+    "name": "Blanche",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 2,
+    "top_words": [
+      "gray",
+      "shane",
+      "stress",
+      "hair",
+      "husband"
+    ],
+    "pagerank": 0.8951411682227877
+  },
+  {
+    "id": "coral",
+    "name": "Coral",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 7,
+    "top_words": [
+      "shane",
+      "jimmy",
+      "corkscrew",
+      "show",
+      "short"
+    ],
+    "pagerank": 1.3712384593284772
+  },
+  {
+    "id": "shane",
+    "name": "Shane",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 6,
+    "top_words": [
+      "coral",
+      "shoot",
+      "mouth",
+      "everybody",
+      "life"
+    ],
+    "pagerank": 1.316973373884704
+  },
+  {
+    "id": "jimmy_neptune",
+    "name": "Jimmy Neptune",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 5,
+    "top_words": [
+      "act",
+      "darlings",
+      "coral",
+      "fire",
+      "ramp"
+    ],
+    "pagerank": 1.1325150475222072
+  },
+  {
+    "id": "galveston_gus",
+    "name": "Galveston Gus",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 1,
+    "top_words": [
+      "prove"
+    ],
+    "pagerank": 0.26952470415013835
+  },
+  {
+    "id": "she_lobster",
+    "name": "She-Lobster",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.7225305751158083
+  },
+  {
+    "id": "he_lobster",
+    "name": "He-Lobster",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.7242721375840774
+  },
+  {
+    "id": "sid",
+    "name": "Sid",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 3,
+    "top_words": [
+      "blanche",
+      "coral",
+      "love",
+      "double",
+      "jimmy"
+    ],
+    "pagerank": 0.38462547223922594
+  },
+  {
+    "id": "everyone",
+    "name": "Everyone",
+    "type": "guest",
+    "alive": true,
+    "episodes": [
+      "S02E13"
+    ],
+    "scene_count": 1,
+    "top_words": [],
+    "pagerank": 0.6604779435338578
+  }
+]

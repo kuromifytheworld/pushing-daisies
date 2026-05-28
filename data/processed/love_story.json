@@ -1,0 +1,276 @@
+{
+  "timeline": [
+    {
+      "id": "S01E01",
+      "title": "Pie-Lette",
+      "sentiment": 0.097,
+      "exchange_count": 41
+    },
+    {
+      "id": "S01E02",
+      "title": "Dummy",
+      "sentiment": 0.1,
+      "exchange_count": 34
+    },
+    {
+      "id": "S01E03",
+      "title": "The Fun In Funeral",
+      "sentiment": -0.106,
+      "exchange_count": 26
+    },
+    {
+      "id": "S01E04",
+      "title": "Pigeon",
+      "sentiment": 0.347,
+      "exchange_count": 20
+    },
+    {
+      "id": "S01E05",
+      "title": "Girth",
+      "sentiment": -0.009,
+      "exchange_count": 16
+    },
+    {
+      "id": "S01E06",
+      "title": "Bitches",
+      "sentiment": 0.536,
+      "exchange_count": 14
+    },
+    {
+      "id": "S01E07",
+      "title": "Smell Of Success",
+      "sentiment": 0.284,
+      "exchange_count": 20
+    },
+    {
+      "id": "S01E08",
+      "title": "Bitter Sweets",
+      "sentiment": 0.194,
+      "exchange_count": 13
+    },
+    {
+      "id": "S01E09",
+      "title": "Corpsicle",
+      "sentiment": -0.514,
+      "exchange_count": 6
+    },
+    {
+      "id": "S02E01",
+      "title": "Bzzzzzzzzz",
+      "sentiment": -0.07,
+      "exchange_count": 26
+    },
+    {
+      "id": "S02E02",
+      "title": "Circus Circus",
+      "sentiment": 0.227,
+      "exchange_count": 34
+    },
+    {
+      "id": "S02E03",
+      "title": "Bad Habits",
+      "sentiment": -0.017,
+      "exchange_count": 12
+    },
+    {
+      "id": "S02E04",
+      "title": "Frescorts",
+      "sentiment": 0.465,
+      "exchange_count": 20
+    },
+    {
+      "id": "S02E05",
+      "title": "Dim Sum Lose Some",
+      "sentiment": 0.21,
+      "exchange_count": 14
+    },
+    {
+      "id": "S02E06",
+      "title": "Oh Oh Oh Its Magic",
+      "sentiment": 0.247,
+      "exchange_count": 9
+    },
+    {
+      "id": "S02E07",
+      "title": "Robbing Hood",
+      "sentiment": -0.079,
+      "exchange_count": 25
+    },
+    {
+      "id": "S02E08",
+      "title": "Comfort Food",
+      "sentiment": 0.146,
+      "exchange_count": 15
+    },
+    {
+      "id": "S02E09",
+      "title": "The Legend Of Merle Mcquoddy",
+      "sentiment": 0.277,
+      "exchange_count": 40
+    },
+    {
+      "id": "S02E10",
+      "title": "The Norwegians",
+      "sentiment": -0.195,
+      "exchange_count": 36
+    },
+    {
+      "id": "S02E11",
+      "title": "Window Dressed To Kill",
+      "sentiment": 0.191,
+      "exchange_count": 13
+    },
+    {
+      "id": "S02E12",
+      "title": "Water Power",
+      "sentiment": 0.354,
+      "exchange_count": 22
+    },
+    {
+      "id": "S02E13",
+      "title": "Kerplunk",
+      "sentiment": 0.525,
+      "exchange_count": 28
+    }
+  ],
+  "quotes": [
+    {
+      "episode": "S01E01",
+      "season": "1",
+      "ep_num": "1",
+      "title": "Pie-Lette",
+      "speaker1": "Ned",
+      "line1": "You only have a minute. Less.",
+      "speaker2": "Chuck",
+      "line2": "What can I do in less than a minute?",
+      "score": 1,
+      "keywords": [
+        "only"
+      ]
+    },
+    {
+      "episode": "S01E01",
+      "season": "1",
+      "ep_num": "1",
+      "title": "Pie-Lette",
+      "speaker1": "Ned",
+      "line1": "(to Chuck) I thought you didn\u2019t want the reward.",
+      "speaker2": "Chuck",
+      "line2": "No. I wanted you not to want the reward. 50- thousand dollars, that\u2019s a lot of money. Three-way split? 30/30/40? (off Emerson\u2019s reaction) It\u2019s only fair I get more. I did die for it.",
+      "score": 4,
+      "keywords": [
+        "want",
+        "die",
+        "only"
+      ]
+    },
+    {
+      "episode": "S01E02",
+      "season": "1",
+      "ep_num": "2",
+      "title": "Dummy",
+      "speaker1": "Chuck",
+      "line1": "You love secrets. You want to marry secrets and have little half-secret, half-human children.",
+      "speaker2": "Ned",
+      "line2": "It\u2019s pretty much I bake pies and wake the dead. I live a very sheltered life.",
+      "score": 5,
+      "keywords": [
+        "live",
+        "dead",
+        "love",
+        "wake",
+        "want"
+      ]
+    },
+    {
+      "episode": "S01E06",
+      "season": "1",
+      "ep_num": "6",
+      "title": "Bitches",
+      "speaker1": "Chuck",
+      "line1": "Aren\u2019t we an \u201cus\u201d? An \u201cus\u201d with special circumstances. Maybe we should embrace the idea that there might be times I have to hold someone else\u2019s hand, or you have to kiss someone else\u2019s--",
+      "speaker2": "Ned",
+      "line2": "I don\u2019t want to kiss anyone else\u2019s anything.",
+      "score": 5,
+      "keywords": [
+        "hand",
+        "want",
+        "kiss",
+        "hold"
+      ]
+    },
+    {
+      "episode": "S02E07",
+      "season": "2",
+      "ep_num": "7",
+      "title": "Robbing Hood",
+      "speaker1": "Ned",
+      "line1": "If I knew the consequences, I would never have alive-agained my mother. (MORE) And I had seven hours with her. I\u2019d rather take my chances with Dwight than make you go through this.",
+      "speaker2": "Chuck",
+      "line2": "When you lost your mother, you had to go through it alone. I have you. I was wrong when I said I\u2019d turned into a cynic. Rob Wright isn't Robin Hood. A hero doesn\u2019t kill people, he brings them back to life, if only for a minute. You\u2019re the real swashbuckling do-gooder, and I love you for it.",
+      "score": 5,
+      "keywords": [
+        "never",
+        "love",
+        "only",
+        "real",
+        "alive"
+      ]
+    },
+    {
+      "episode": "S02E11",
+      "season": "2",
+      "ep_num": "11",
+      "title": "Window Dressed To Kill",
+      "speaker1": "Chuck",
+      "line1": "Of course I am. She\u2019s alive and everybody knows it. You can share romantic anecdotes without all the plot holes. And you don\u2019t have to wait until winter to hold her hand.",
+      "speaker2": "Ned",
+      "line2": "The only hand I wanna hold is yours and I will wear winter gloves year-round to do it. So don\u2019t be jealous. Besides, after pretending to be her fianc\u00e9, Olive is finally over me. Even when I thought I was doing what she\u2019d want me to do, I still ended up hurting her.",
+      "score": 9,
+      "keywords": [
+        "wait",
+        "yours",
+        "only",
+        "want",
+        "hold",
+        "alive",
+        "hand"
+      ]
+    },
+    {
+      "episode": "S02E12",
+      "season": "2",
+      "ep_num": "12",
+      "title": "Water Power",
+      "speaker1": "Chuck",
+      "line1": "When you let me live more than a minute, you said you didn\u2019t have a choice, but you did. We tell ourselves we don\u2019t have a choice to fall in love, but we do -- and if Emerson hadn\u2019t been blinded by love, then he never would have had Penny, and he wouldn\u2019t have anything to lose. Which would have been so much easier.",
+      "speaker2": "Ned",
+      "line2": "Do you want us to be easier?",
+      "score": 5,
+      "keywords": [
+        "live",
+        "never",
+        "love",
+        "want"
+      ]
+    },
+    {
+      "episode": "S02E13",
+      "season": "2",
+      "ep_num": "13",
+      "title": "Kerplunk",
+      "speaker1": "Ned",
+      "line1": "I did what you told me. I took care of them, made them feel safe. So safe that they made the choice to do this. I thought you\u2019d be happy.",
+      "speaker2": "Chuck",
+      "line2": "They think I\u2019m dead. The only way that\u2019s been bearable is because I can keep tabs on them both. (MORE) If they need something, I can know about it and try to help or fix it, and while I\u2019m completely removed, in some way -- my way -- I\u2019m still part of their lives. I can\u2019t be happy if they\u2019re in Europe! (then) This is a game changer.",
+      "score": 6,
+      "keywords": [
+        "dead",
+        "safe",
+        "only",
+        "feel",
+        "need"
+      ]
+    }
+  ]
+}

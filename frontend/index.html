@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pushing Daisies — Character Network</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="love.css" />
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────────────── -->
+<header>
+  <div class="title-group">
+    <h1>✦ PUSHING DAISIES</h1>
+    <p>Character Relationship Network · NLP + Neo4J + D3.js</p>
+  </div>
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-value" id="stat-chars">—</div>
+      <div class="stat-label">Characters</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-rels">—</div>
+      <div class="stat-label">Connections</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-top">—</div>
+      <div class="stat-label">Top Character</div>
+    </div>
+  </div>
+</header>
+
+<!-- ── Main ────────────────────────────────────────────────────────────────── -->
+<div class="main">
+
+  <!-- Left panel -->
+  <aside class="left-panel">
+
+    <div class="panel-section">
+      <h3>Season</h3>
+      <div class="season-tabs">
+        <button class="tab-btn active" data-season="all">All</button>
+        <button class="tab-btn" data-season="1">S1</button>
+        <button class="tab-btn" data-season="2">S2</button>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <h3>Episode</h3>
+      <div class="slider-row">
+        <label>Episode</label>
+        <input type="range" id="episode-slider" min="0" max="0" value="0" />
+        <span class="slider-val" id="episode-val">All</span>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <h3>Relationship Type</h3>
+      <div class="checkbox-group">
+        <label class="checkbox-row">
+          <input type="checkbox" class="rel-type-check" value="DIALOGUE_WITH" checked />
+          Dialogue
+        </label>
+        <label class="checkbox-row">
+          <input type="checkbox" class="rel-type-check" value="CO_APPEARS" checked />
+          Co-appearance
+        </label>
+        <label class="checkbox-row">
+          <input type="checkbox" class="rel-type-check" value="SPEAKS_ABOUT" />
+          Mentioned in dialogue
+        </label>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <h3>Min. Interactions</h3>
+      <div class="slider-row">
+        <label>Weight ≥</label>
+        <input type="range" id="weight-slider" min="1" max="20" value="2" />
+        <span class="slider-val" id="weight-val">2</span>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <h3>Find Shortest Path</h3>
+      <div class="path-finder">
+        <select id="path-from"><option value="">— from —</option></select>
+        <select id="path-to"><option value="">— to —</option></select>
+        <button class="btn" onclick="window.findPath()">Find Path</button>
+        <button class="btn secondary" onclick="window.clearPath()">Clear</button>
+        <div class="path-result" id="path-result"></div>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <h3>Legend — Nodes</h3>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#e8569a"></div>
+        Main character
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#c97bd4"></div>
+        Supporting
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#7b5ea7"></div>
+        Guest / Minor
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#7b5ea7;border:2px solid #f9d342;box-sizing:border-box"></div>
+        ✦ Revived / Dead
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <h3>Legend — Edges</h3>
+      <div class="legend-item">
+        <div class="legend-line" style="background:#f9a842"></div>
+        Positive sentiment
+      </div>
+      <div class="legend-item">
+        <div class="legend-line" style="background:#9b7bbf"></div>
+        Neutral
+      </div>
+      <div class="legend-item">
+        <div class="legend-line" style="background:#5b8dee"></div>
+        Tense / Negative
+      </div>
+      <div class="legend-item">
+        <div class="legend-line" style="background:#7ecba1"></div>
+        Co-appearance
+      </div>
+      <div class="legend-item">
+        <div class="legend-line" style="background:#c06090;width:16px"></div>
+        ▶ Mentioned
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- Graph canvas -->
+  <div id="graph-container">
+    <div id="loading">
+      <div class="spinner"></div>
+      <p>Loading character network…</p>
+    </div>
+    <svg id="graph-svg"></svg>
+    <div class="tooltip" id="tooltip"></div>
+  </div>
+
+  <!-- Right panel (character card) -->
+  <aside class="right-panel" id="right-panel">
+    <div class="char-card" id="char-card-content">
+      <!-- populated by JS -->
+    </div>
+  </aside>
+
+</div>
+
+<!-- ── Love Story floating button ──────────────────────────── -->
+<button id="love-tab-btn" onclick="window.openLoveTab()">♥ True Love Exists</button>
+
+<!-- ── Love Story full-screen panel ────────────────────────── -->
+<div id="love-panel">
+  <button id="love-close" onclick="window.closeLoveTab()">✕</button>
+
+  <div class="love-hero">
+    <div class="love-kicker">Script Evidence · NLP Analysis · 484 Exchanges</div>
+    <h2>The Impossible Love of Ned &amp; Chuck</h2>
+    <p class="love-sub">
+      He brought her back from the dead — but his touch would kill her again.
+      They could never hold hands, never kiss, never close the distance between them.
+      Yet across 22 episodes, their words prove what no barrier could erase.
+    </p>
+    <div class="love-lyric">
+      "銀幕上情侶 · 終會是一對" — the screen couple that always end up together
+    </div>
+  </div>
+
+  <div class="love-body">
+
+    <!-- Left: timeline + quote cards -->
+    <div class="love-left">
+      <div>
+        <div class="love-section-title">Sentiment of Their Exchanges — All 22 Episodes</div>
+        <svg id="love-chart"></svg>
+        <div class="love-chart-tooltip" id="love-chart-tooltip"></div>
+      </div>
+
+      <div>
+        <div class="love-section-title">Proof of Love — Actual Words From the Scripts</div>
+        <div class="quote-grid" id="quote-grid"></div>
+      </div>
+    </div>
+
+    <!-- Right: mini graph + stats -->
+    <div class="love-right">
+      <div class="love-section-title">Their Shared World</div>
+
+      <div class="love-stats">
+        <div class="love-stat">
+          <div class="love-stat-val" id="love-stat-exchanges">—</div>
+          <div class="love-stat-lbl">Exchanges</div>
+        </div>
+        <div class="love-stat">
+          <div class="love-stat-val" id="love-stat-episodes">—</div>
+          <div class="love-stat-lbl">Episodes</div>
+        </div>
+        <div class="love-stat">
+          <div class="love-stat-val" id="love-stat-sentiment">—</div>
+          <div class="love-stat-lbl">Avg Sentiment</div>
+        </div>
+        <div class="love-stat">
+          <div class="love-stat-val" id="love-stat-peak">—</div>
+          <div class="love-stat-lbl">Warmest Ep</div>
+        </div>
+      </div>
+
+      <div class="love-section-title" style="margin-top:8px">Connection Graph</div>
+      <div id="love-minigraph"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- D3 v7 -->
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="config.js"></script>
+<script src="filters.js"></script>
+<script src="graph.js"></script>
+<script src="love.js"></script>
+</body>
+</html>

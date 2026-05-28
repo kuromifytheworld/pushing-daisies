@@ -1,0 +1,512 @@
+/* Pushing Daisies — Character Network
+   Visual palette inspired by the show: deep plum, petal pink, daisy yellow, sage green */
+
+:root {
+  --bg:           #1a0a2e;
+  --panel-bg:     #251040;
+  --panel-border: #6b2d8b;
+  --accent:       #e8569a;
+  --accent2:      #f9d342;
+  --accent3:      #7ecba1;
+  --text:         #f0e6ff;
+  --text-muted:   #a08cc0;
+  --node-main:    #e8569a;
+  --node-support: #c97bd4;
+  --node-guest:   #7b5ea7;
+  --node-revival: #f9d342;
+  --edge-pos:     #f9a842;
+  --edge-neg:     #5b8dee;
+  --edge-neutral: #9b7bbf;
+  --shadow:       rgba(232, 86, 154, 0.3);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Georgia', serif;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ─────────────────────────────────────── */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background: linear-gradient(90deg, #2d0a50 0%, #1a0a2e 100%);
+  border-bottom: 1px solid var(--panel-border);
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+.title-group h1 {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  color: var(--accent);
+  text-shadow: 0 0 12px var(--shadow);
+}
+
+.title-group p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+}
+
+.stats-bar {
+  display: flex;
+  gap: 24px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--accent2);
+}
+
+.stat-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ── Main layout ─────────────────────────────────── */
+.main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* ── Left panel ──────────────────────────────────── */
+.left-panel {
+  width: 240px;
+  background: var(--panel-bg);
+  border-right: 1px solid var(--panel-border);
+  padding: 16px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.panel-section h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent);
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--panel-border);
+  padding-bottom: 6px;
+}
+
+/* Season tabs */
+.season-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 6px;
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.tab-btn:hover, .tab-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* Episode slider */
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.slider-row label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  min-width: 60px;
+}
+
+input[type="range"] {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.slider-val {
+  font-size: 0.75rem;
+  color: var(--accent2);
+  min-width: 20px;
+  text-align: right;
+}
+
+/* Checkboxes */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.checkbox-row:hover { color: var(--text); }
+
+.checkbox-row input[type="checkbox"] {
+  accent-color: var(--accent);
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+/* Colour legend */
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend-line {
+  width: 24px;
+  height: 3px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Path finder */
+.path-finder {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.path-finder select {
+  background: var(--bg);
+  border: 1px solid var(--panel-border);
+  color: var(--text);
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.btn {
+  padding: 7px 12px;
+  background: var(--accent);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn:hover { opacity: 0.85; }
+.btn.secondary {
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  color: var(--text-muted);
+}
+
+.path-result {
+  font-size: 0.75rem;
+  color: var(--accent3);
+  min-height: 20px;
+}
+
+/* ── Graph canvas ────────────────────────────────── */
+#graph-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.node circle {
+  stroke-width: 2;
+  cursor: pointer;
+  transition: stroke 0.2s;
+}
+
+.node circle:hover {
+  stroke: var(--accent2) !important;
+  stroke-width: 3;
+}
+
+.node.main circle       { fill: var(--node-main);    stroke: #ff90c0; }
+.node.supporting circle { fill: var(--node-support); stroke: #d4a0e0; }
+.node.guest circle      { fill: var(--node-guest);   stroke: #9b7bbf; }
+.node.revival circle    { stroke: var(--node-revival) !important; stroke-width: 3; }
+
+.node text {
+  fill: var(--text);
+  font-size: 11px;
+  font-family: Georgia, serif;
+  pointer-events: none;
+  text-shadow: 0 1px 3px #000;
+}
+
+.link {
+  stroke-opacity: 0.6;
+  transition: stroke-opacity 0.2s;
+}
+
+.link:hover { stroke-opacity: 1; }
+
+/* ── Speech bubbles ──────────────────────────────── */
+.speech-bubble { pointer-events: none; }
+
+.speech-bubble .bubble-bg {
+  fill: white;
+  stroke: var(--panel-border);
+  stroke-width: 1.5;
+}
+
+.speech-bubble .bubble-word {
+  font-family: 'Georgia', serif;
+  font-size: 9px;
+  fill: #1a0a2e;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+
+/* Always-on bubbles for main chars */
+.node.main    .speech-bubble { opacity: 1; }
+.node.supporting .speech-bubble { opacity: 0.85; }
+/* Guest chars: hidden by default, fade in on hover */
+.node.guest   .speech-bubble { opacity: 0; transition: opacity 0.2s; }
+.node.guest:hover .speech-bubble { opacity: 1; }
+
+/* Hide all bubbles when node is dimmed */
+.node.dimmed  .speech-bubble { opacity: 0 !important; }
+
+/* Revival glow animation */
+@keyframes revival-pulse {
+  0%, 100% { filter: drop-shadow(0 0 4px var(--accent2)); }
+  50%       { filter: drop-shadow(0 0 10px var(--accent2)); }
+}
+
+.node.revival circle {
+  animation: revival-pulse 2s ease-in-out infinite;
+}
+
+/* Path highlight */
+.link.path-highlight {
+  stroke: var(--accent2) !important;
+  stroke-opacity: 1 !important;
+  stroke-width: 4px !important;
+}
+
+.node.path-highlight circle {
+  stroke: var(--accent2) !important;
+  stroke-width: 4 !important;
+}
+
+/* Dimmed state */
+.link.dimmed   { stroke-opacity: 0.1; }
+.node.dimmed circle { opacity: 0.2; }
+.node.dimmed text   { opacity: 0.2; }
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.75rem;
+  color: var(--text);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  max-width: 180px;
+  z-index: 100;
+}
+
+.tooltip.visible { opacity: 1; }
+
+/* ── Right panel (character card) ────────────────── */
+.right-panel {
+  width: 260px;
+  background: var(--panel-bg);
+  border-left: 1px solid var(--panel-border);
+  padding: 16px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.right-panel.open { transform: translateX(0); }
+
+.char-card h2 {
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.char-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.badge-main       { background: var(--accent);  color: white; }
+.badge-supporting { background: var(--node-support); color: white; }
+.badge-guest      { background: var(--node-guest);   color: white; }
+
+.char-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.char-stat {
+  background: var(--bg);
+  border-radius: 6px;
+  padding: 8px;
+  text-align: center;
+}
+
+.char-stat-value {
+  font-size: 1.1rem;
+  color: var(--accent2);
+  font-weight: bold;
+}
+
+.char-stat-label {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.char-card h3 {
+  font-size: 0.7rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 12px 0 6px;
+}
+
+.relation-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.relation-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background: var(--bg);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.relation-item:hover { background: #3a1860; }
+
+.relation-name { color: var(--text); }
+.relation-weight {
+  font-size: 0.7rem;
+  color: var(--accent2);
+}
+
+.sentiment-bar {
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 6px;
+  background: var(--edge-neutral);
+}
+
+.close-btn {
+  float: right;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.close-btn:hover { color: var(--accent); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--panel-border); border-radius: 3px; }
+
+/* Loading overlay */
+#loading {
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  gap: 16px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--panel-border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+#loading p { color: var(--text-muted); font-size: 0.85rem; }

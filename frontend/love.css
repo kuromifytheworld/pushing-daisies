@@ -1,0 +1,268 @@
+/* ── Love Story Tab ─────────────────────────────────────── */
+
+#love-tab-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  background: linear-gradient(135deg, #e8569a, #c040a0);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 12px 22px;
+  font-size: 0.85rem;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(232,86,154,0.5);
+  z-index: 200;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+#love-tab-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(232,86,154,0.7);
+}
+
+/* ── Overlay panel ───────────────────────────────────────── */
+#love-panel {
+  position: fixed;
+  inset: 0;
+  background: #0e0520;
+  z-index: 500;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+}
+#love-panel.open { display: flex; }
+
+/* Close */
+#love-close {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.4);
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: color 0.2s;
+}
+#love-close:hover { color: var(--accent); }
+
+/* ── Hero banner ─────────────────────────────────────────── */
+.love-hero {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 32px 24px 16px;
+  background: linear-gradient(180deg, rgba(200,40,120,0.18) 0%, transparent 100%);
+  border-bottom: 1px solid rgba(232,86,154,0.2);
+}
+.love-hero .love-kicker {
+  font-size: 0.65rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.love-hero h2 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+.love-hero .love-sub {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.45);
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-style: italic;
+}
+.love-hero .love-lyric {
+  margin-top: 10px;
+  font-size: 0.72rem;
+  color: var(--accent);
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+}
+
+/* ── Body layout ─────────────────────────────────────────── */
+.love-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  overflow: hidden;
+  gap: 0;
+}
+
+/* ── Left: timeline + quotes ─────────────────────────────── */
+.love-left {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 20px 24px 24px;
+  gap: 24px;
+}
+
+.love-section-title {
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+/* Timeline chart */
+#love-chart {
+  width: 100%;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+/* Tooltip for chart */
+.love-chart-tooltip {
+  position: fixed;
+  background: #1e0835;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.72rem;
+  color: var(--text);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 600;
+  max-width: 220px;
+  line-height: 1.5;
+}
+.love-chart-tooltip.vis { opacity: 1; }
+
+/* Quote cards */
+.quote-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.quote-card {
+  background: linear-gradient(135deg, #1e0835 0%, #2a0d4a 100%);
+  border: 1px solid rgba(232,86,154,0.2);
+  border-radius: 10px;
+  padding: 16px 18px;
+  position: relative;
+  transition: border-color 0.2s, transform 0.2s;
+  cursor: default;
+}
+.quote-card:hover {
+  border-color: rgba(232,86,154,0.6);
+  transform: translateY(-2px);
+}
+.quote-card .ep-badge {
+  font-size: 0.58rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.quote-card .exchange {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.quote-card .utterance {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.quote-card .speaker-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+.speaker-dot.ned   { background: #e8569a; box-shadow: 0 0 6px #e8569a; }
+.speaker-dot.chuck { background: #f9d342; box-shadow: 0 0 6px #f9d342; }
+
+.quote-card .line-text {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.55;
+  font-style: italic;
+}
+.quote-card .line-text em {
+  color: var(--accent2);
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Heart divider */
+.quote-card::before {
+  content: "♥";
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0e0520;
+  color: var(--accent);
+  font-size: 0.75rem;
+  padding: 0 6px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.quote-card:hover::before { opacity: 1; }
+
+/* ── Right: mini relationship graph ──────────────────────── */
+.love-right {
+  border-left: 1px solid rgba(232,86,154,0.15);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 18px;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+#love-minigraph {
+  flex: 1;
+  min-height: 280px;
+}
+
+/* Stats */
+.love-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.love-stat {
+  background: #1e0835;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+.love-stat-val {
+  font-size: 1.3rem;
+  color: var(--accent2);
+  font-weight: bold;
+}
+.love-stat-lbl {
+  font-size: 0.58rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ── Entrance animation ──────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(12px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+.quote-card { animation: fadeUp 0.4s ease both; }
+.quote-card:nth-child(1) { animation-delay: 0.05s; }
+.quote-card:nth-child(2) { animation-delay: 0.12s; }
+.quote-card:nth-child(3) { animation-delay: 0.19s; }
+.quote-card:nth-child(4) { animation-delay: 0.26s; }
+.quote-card:nth-child(5) { animation-delay: 0.33s; }
+.quote-card:nth-child(6) { animation-delay: 0.40s; }
+.quote-card:nth-child(7) { animation-delay: 0.47s; }
+.quote-card:nth-child(8) { animation-delay: 0.54s; }
